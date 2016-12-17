@@ -10,7 +10,7 @@ import StorePicker from './components/StorePicker';
 
 const Root = () => {
     return (
-        <BroswerRouter>
+        <BrowserRouter>
             <div>
                 <Match exactly pattern="/" component={StorePicker} />
                 <Match pattern="/store/:storeId" component={App} />
